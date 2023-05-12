@@ -1,0 +1,61 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<style>
+div.bodyBase{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
+}
+div.fichabase{
+  display:flex;
+  flex-direction: row;
+}
+div.marcoConDatos{
+  border-color: black;
+  border-style: solid;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  max-width: 500px;
+}
+img{
+  max-height: 300px;
+  max-width: 400px;
+}
+div.foto{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+p{
+  
+  font-size: 1.1em;
+}
+body{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+</head>
+<body>
+<h2>Login en el sistema</h2>
+<div class="bodyBase">
+<div class="fichabase">
+<div class="foto"><img src="Imagenes/Deadpool.jpg"></div>
+<div class="marcoConDatos">
+<h2>Login en el sistema</h2>
+<form action="/action_page.php">
+    <label for="fname">Usuario:</label>
+    <input type="text" name="fname"><br><br>
+    <label for="lname">Password: </label>
+    <input type="password"  name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form></div>
+</div>
+</div>
+
+</body>
+</html>
